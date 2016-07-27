@@ -170,7 +170,7 @@ html, body {
 
 .site-navigation li a:focus{
 	background:transparent;
-	color:#888;
+	color:#fff;
 	border:0;
 }
 
