@@ -64,6 +64,15 @@ html, body {
   text-transform: uppercase;
 }
 
+#bs-over .mobile-menu .current  a{
+	color:#888;
+	background-color: #000;
+}
+#bs-over .mobile-menu .current  a:hover{
+	color:#888;
+	background-color: #000;
+}
+
 .icon-close {
   cursor: pointer;
   padding-left: 10px;
@@ -161,8 +170,17 @@ html, body {
 
 .site-navigation li a:focus{
 	background:transparent;
-	color:#fff;
+	color:#888;
 	border:0;
+}
+
+#bs-over .site-navigation .current  a{
+	color:#888;
+	background-color: #000;
+}
+#bs-over .site-navigation .current  a:hover{
+	color:#888;
+	background-color: #000;
 }
 
 
@@ -230,7 +248,7 @@ html, body {
 /*main menu*/
 
 .main {
-	background-image: url("/images/desayuno.jpg");
+	background-image: url("/images/parrillada.jpg");
 	position: center center;
 	background-size: cover;
 	background-attachment: fixed;
