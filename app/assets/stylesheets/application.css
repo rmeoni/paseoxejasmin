@@ -197,7 +197,7 @@ html, body {
 }
 
 /*supporting*/
-.supporting .row {
+#bs-over .supporting .row {
 	padding-top:60px;
 	padding-bottom:60px;
 }
@@ -266,14 +266,8 @@ html, body {
 
 /*supporting-2/contact us*/
 .supporting-2 {
-background-image: url("/images/rosal.jpg");
-background-size:cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-color:#fff;
+color:#000;
 text-align:left;
-text-shadow:0 3px 4px rgba(0,0,0,.8);
 font-family:'Raleway', sans-serif;
 }
 
@@ -285,9 +279,6 @@ font-family:'Raleway', sans-serif;
 .supporting-2 h2 {
 	font-size:40px;
 	padding-bottom:40px;
-}
-.supporting-2 h2 a:hover {
-	color:#DD9B25;
 }
 .supporting-2 h4 {
 	color:#fff;
@@ -322,7 +313,7 @@ font-family:'Raleway', sans-serif;
 	transition: background-color .3s;
 }
 
-.pre-footer i:hover {
+#bs-over .pre-footer i:hover {
 	background-color: #fff;
 	color:#28211F;
 }
@@ -334,9 +325,6 @@ font-family:'Raleway', sans-serif;
   	transition:color 0.25s;
 }
 
-.pre-footer a:hover, .pre-footer a:focus {
-	
-}
 .pre-footer #fb {
 	font-size: 23px;
 	padding: 10px 15px 10px 15px;
