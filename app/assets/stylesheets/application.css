@@ -88,6 +88,7 @@ html, body {
   margin-top: 10px;
   padding: 1px 0px 0px 5px;
   z-index: 1000;
+  display: none;
 }
 
 .icon-menu i {
@@ -573,7 +574,7 @@ font-family:'Raleway', sans-serif;
 	font-size: 4em;
 }
 
-.icon-menu {
+#bs-over .icon-menu {
 	display:inline;
 	text-align:center;
 	background-color: #000;
