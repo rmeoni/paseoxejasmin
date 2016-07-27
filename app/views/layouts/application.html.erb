@@ -3,6 +3,8 @@
 <head>
 	<!--Bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript for bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<!--responsive css-->
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 		<!--google fonts-->
@@ -136,20 +138,7 @@
 
       $(document).ready(main);
     </script>
-   		<script type ="text/javascript" src="/vendor/assets/javascripts/CombinedSCroll/jquery.combinedScroll.js"></script>
-   		<!--scrolling nav-->
-   		<script type="text/javascript">
-				jQuery(document).ready(function($) {
- 
-  					// Hook up the current state to the nav bar
-  				$('.nav').onePageNav();
-  				$('.page-navigation').onePageNav();
-  				$('.mobile-menu').onePageNav();
-  				
-  
-				});
-				</script>
-    <script type ="text/javascript">
+     <script type ="text/javascript">
     var main = function() {
 
  $('.arrow-next').click(function() {
@@ -235,6 +224,20 @@
 
 $(document).ready(main);
     </script>
+   		<script type ="text/javascript" src="/vendor/assets/javascripts/CombinedSCroll/jquery.combinedScroll.js"></script>
+   		<!--scrolling nav-->
+   		<script type="text/javascript">
+				var main = function() {
+ 
+  					// Hook up the current state to the nav bar
+  				$('.nav').onePageNav();
+  				$('.page-navigation').onePageNav();
+  				$('.mobile-menu').onePageNav();
+  				
+         };
+
+      $(document).ready(main);
+				</script>
 
 </body>
 </html>
