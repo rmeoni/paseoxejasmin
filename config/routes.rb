@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  get '/' => 'pages#index', as: :root
+  get '/' => 'contacts#new', as: :root
+  match '/contacts',     to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
   get "*missing" => redirect("/")
+
+   resources :contact
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

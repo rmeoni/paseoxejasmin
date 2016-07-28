@@ -216,12 +216,12 @@ html, body {
 
 /*supporting*/
 #bs-over .supporting .row {
-	padding-top:60px;
-	padding-bottom:60px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .supporting h1 {
-	padding-bottom:60px;
+	margin-bottom:20px;
 	font-family:'Raleway',sans-serif;
 	font-weight:600;
 }
@@ -301,6 +301,102 @@ font-family:'Raleway', sans-serif;
 .supporting-2 h4 {
 	color:#fff;
 	font-size:28px;
+}
+
+/*To hide the nickname when sending a message*/
+.hidden { display: none; }
+
+.contact {
+	margin: 10px;
+}
+
+#form {
+	text-align: left;
+	position: relative;
+}
+
+#form .form-horizontal input {
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+
+#form .form-horizontal .button {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+}
+
+#form textarea {
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	width: 100%;
+} 
+
+#form textarea:focus {
+	border: 1px solid #78A7D8;
+}
+
+#form input:focus {
+	border: 1px solid #78A7D8;
+}
+
+#form label {
+	display: block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#bs-over #form .btn {
+	background-color: #000;
+	transition: background-color .3s;
+	padding: 12px;
+}
+
+#bs-over #form .btn:hover {
+	background-color: #332C29;
+}
+
+
+/*flash*/
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+#create {
+	height: 600px;
+	background-color: #dbdbdb;
+
+}
+
+#create h1 {
+	color: #fff;
 }
 /*prefooter*/
 

@@ -8,6 +8,10 @@ gem 'rails', '4.2.6'
 gem 'pg'
 #puma web server
 gem 'puma'
+#rails plugin for a database independent format 
+gem 'yaml_db'
+#debise
+gem 'devise'
 
 group :development, :test do
 gem 'foreman'
