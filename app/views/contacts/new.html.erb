@@ -213,3 +213,68 @@
         </div>
       </div>
     </div>
+
+
+<!-- Latest compiled and minified JavaScript for bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var main = function() {
+         $(".site-navigation").hide(); //hide your div initially
+        var topOfOthDiv = $(".supporting").offset().top;
+  
+        $(window).scroll(function() {
+          if($(window).scrollTop() >= topOfOthDiv) { //scrolled past the other div?
+            $(".site-navigation").show(100); //reached the desired point -- show div
+            
+            } else {
+              $(".site-navigation").hide(50);
+            }
+         });
+     /* Push the body and the nav over by 280px over */
+      $('.icon-menu').click(function() {
+        $('.menu').animate({
+          left: "0px"
+        }, 200);
+
+        $('body').animate({
+          left: "280px"
+        }, 200);
+        });
+
+      /* Then push them back */
+        $('.icon-close').click(function() {
+        $('.menu').animate({
+          left: "-280px"
+        }, 200);
+
+        $('body').animate({
+          left: "0px"
+        }, 200);
+        });
+
+        $('.mobile-menu').click(function() {
+      $('.menu').animate({
+        left:"-280px"
+      },200);
+
+      $('body').animate({
+      left: "0px"
+    }, 200);
+});
+      };
+
+      $(document).ready(main);
+    </script>
+      <!--scrolling nav-->
+      <script type="text/javascript">
+        var main = function() {
+ 
+            // Hook up the current state to the nav bar
+          $('.nav').onePageNav();
+          $('.page-navigation').onePageNav();
+          $('.mobile-menu').onePageNav();
+          
+         };
+
+      $(document).ready(main);
+        </script>

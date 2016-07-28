@@ -324,7 +324,7 @@ font-family:'Raleway', sans-serif;
 
 #bs-over #form .form-horizontal .button {
 	width: 100%;
-	padding: 12px;
+	padding: 15px;
 	margin-bottom: 20px;
 }
 
@@ -351,7 +351,7 @@ font-family:'Raleway', sans-serif;
 #bs-over #form .btn {
 	background-color: #000;
 	transition: background-color .3s;
-	padding: 12px;
+	padding: 15px;
 }
 
 #bs-over #form .btn:hover {
