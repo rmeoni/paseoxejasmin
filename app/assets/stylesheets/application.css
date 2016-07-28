@@ -310,39 +310,39 @@ font-family:'Raleway', sans-serif;
 	margin: 10px;
 }
 
-#form {
+#bs-over #form {
 	text-align: left;
 	position: relative;
 }
 
-#form .form-horizontal input {
+#bs-over #form .form-horizontal input {
 	margin-top: 10px;
 	padding: 5px;
 	border: 1px solid #CCCCCC;
 	width: 100%;
 }
 
-#form .form-horizontal .button {
+#bs-over #form .form-horizontal .button {
 	width: 100%;
 	padding: 12px;
 	margin-bottom: 20px;
 }
 
-#form textarea {
+#bs-over #form textarea {
 	border: 1px solid #CCCCCC;
 	margin-top: 10px;
 	width: 100%;
 } 
 
-#form textarea:focus {
+#bs-over #form textarea:focus {
 	border: 1px solid #78A7D8;
 }
 
-#form input:focus {
+#bs-over #form input:focus {
 	border: 1px solid #78A7D8;
 }
 
-#form label {
+#bs-over #form label {
 	display: block;
 	margin-top: 5px;
 	text-align: left;
