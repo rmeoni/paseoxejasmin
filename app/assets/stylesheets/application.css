@@ -218,12 +218,14 @@ html, body {
 #bs-over .supporting .row {
 	padding-top:20px;
 	padding-bottom:20px;
+	color: #332C29;
 }
 
 .supporting h1 {
 	margin-bottom:20px;
 	font-family:'Raleway',sans-serif;
 	font-weight:600;
+	color: #332C29;
 }
 .supporting h4 {
 	color:#A8A8A8;
@@ -284,7 +286,7 @@ html, body {
 
 /*supporting-2/contact us*/
 .supporting-2 {
-color:#000;
+color: #332C29;
 text-align:left;
 font-family:'Raleway', sans-serif;
 }
@@ -292,6 +294,7 @@ font-family:'Raleway', sans-serif;
 .supporting-2 h1 {
 	text-transform: uppercase;
 	font-size:50px;
+	color: #332C29;
 }
 
 .supporting-2 h2 {
