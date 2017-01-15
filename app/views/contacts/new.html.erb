@@ -193,18 +193,19 @@
     <div class="col-md-5 col-xs-12" id="form">
       <h1>Cont&aacute;ctenos</h1>
 
-    <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    <!-- BEGIN Podio web form -->
+<script src="https://podio.com/webforms/17622497/1184537.js"></script>
+<script type="text/javascript">
+  _podioWebForm.render("1184537")
+</script>
+<noscript>
+  <a href="https://podio.com/webforms/17622497/1184537" target="_blank">Por favor, rellena el formulario</a>
+</noscript>
+  <div class="podio-webform-container">
+  Get your <a href="https://podio.com" class="podio-webform-inner" rel="nofollow">free webform</a> from Podio
+  </div>
+<!-- END Podio web form -->
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Enviar Mensaje', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
     </div>
   </div>
 </div>
