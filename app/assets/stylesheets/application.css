@@ -186,7 +186,7 @@ html, body {
 
 /*jumbotron*/
 .jumbotron {
-	background-image:url("/images/frente.jpg");
+	background-image:url("/images/SAM_6311.jpg");
 	height:700px;
 	background-size: cover;
 	background-position: center;
@@ -250,12 +250,22 @@ html, body {
 /*main menu*/
 
 .main {
-	background-image: url("/images/parrillada.jpg");
+	background-image: url("/images/SAM_6014.jpg");
 	position: center center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	height: 500px;
+	margin-top: 0px;
+}
+
+.main h1 {
+	color: #fff;
+	font-size: 6em;
+	text-align: center;
+	text-shadow: 0px 2px 3px #000;
+	padding-top: 240px; 
+	margin-top: 0px;
 }
 
 .main-menu .container {
