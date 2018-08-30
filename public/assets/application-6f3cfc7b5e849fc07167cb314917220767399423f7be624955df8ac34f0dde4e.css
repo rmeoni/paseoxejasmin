@@ -1,3 +1,26 @@
+/* line 4, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: color .3s;
+}
+
+/* line 15, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i:hover {
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* line 20, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav a {
+  color: #fff;
+  text-decoration: none;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,11 +33,12 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
 /*start*/
+
 
 html, body {
 	font-family:'Raleway', sans-serif;
