@@ -293,6 +293,39 @@ html, body {
 	color:#A1A1A1;
 }
 
+/*atracciones */
+#bs-over #jumbotron-atracciones {
+	background-image:url("/images/SAM_6253.jpg");
+	height:500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color:#fff;
+	font-family:'Raleway',sans-serif;
+	background-attachment: fixed;
+	margin-bottom:0px;
+	padding-bottom:0px;	
+}
+
+#bs-over #jumbotron-atracciones h1 {
+		text-align:center;
+	color:#fff;
+	font-size:68px;
+	padding-top:60px;
+	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#bs-over .feature-2 .container {
+	height: 400px;
+}
+
+#bs-over .feature-2 .container h4 {
+ 	color: #332C29;
+}
+
+#bs-over #top-row {
+	padding-top: 80px;
+}
 
 /*supporting-2/contact us*/
 .supporting-2 {
@@ -513,6 +546,11 @@ text-align: left;
 	display:inline-block;
 	text-align:center;
 	padding:20px;
+}
+
+#bs-over #jumbotron-atracciones h1 {
+	font-size: 3em;
+	padding-top: 200px;
 }
 
 /* carousel */
