@@ -301,7 +301,7 @@ html, body {
 	background-image:url("/images/astrid-caballo.jpg");
 	height:500px;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	color:#fff;
 	font-family:'Raleway',sans-serif;
