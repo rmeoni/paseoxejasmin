@@ -27,6 +27,7 @@ html, body {
   position: relative;
   overflow: scroll;
 }
+
 /*mobile only*/
 .mobile-logo {
 	display:none;
@@ -75,8 +76,9 @@ html, body {
 
 .icon-close {
   cursor: pointer;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 10px;
+  margin-top: 20px;
   background-color:#000;
   color:#fff;
   font-weight:200;
@@ -84,7 +86,7 @@ html, body {
 }
 
 .icon-close i {
-	font-size: 36px;
+	font-size: 33px;
 }
 
 #bs-over .icon-menu {
@@ -94,15 +96,15 @@ html, body {
   position: fixed;
   margin-bottom: 25px;
   margin-left: 25px;
-  margin-top: 10px;
-  padding: 1px 0px 0px 5px;
+  margin-top: 25px;
+  padding: 3px 0px 0px 5px;
   z-index: 1000;
   display: none;
 }
 
 .icon-menu i {
   margin-right: 5px;
-  font-size: 38px;
+  font-size: 30px;
 }
 
 /*desktop nav*/
@@ -201,8 +203,8 @@ html, body {
 .jumbotron h1 {
 	text-align:center;
 	color:#fff;
-	font-size:68px;
-	padding-top:60px;
+	font-size:40px;
+	padding-top:110px;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
 }
 
@@ -212,6 +214,10 @@ html, body {
 	font-weight:200;
 	font-family:'Raleway',sans-serif;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
+}
+
+#bs-over #intro-text h1 {
+	font-size: 30px;
 }
 
 /*supporting*/
@@ -261,7 +267,7 @@ html, body {
 
 .main h1 {
 	color: #fff;
-	font-size: 6em;
+	font-size: 50px;
 	text-align: center;
 	text-shadow: 0px 2px 3px #000;
 	padding-top: 240px; 
@@ -313,8 +319,8 @@ html, body {
 #bs-over #jumbotron-atracciones h1 {
 	text-align:center;
 	color:#fff;
-	font-size:68px;
-	padding-top:60px;
+	font-size:50px;
+	padding-top:100px;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
 }
 
@@ -362,6 +368,10 @@ font-family:'Raleway', sans-serif;
 #bs-over #form {
 	text-align: center;
 	position: relative;
+}
+
+#bs-over #form h1 {
+	font-size: 30px;
 }
 
 #bs-over #form .form-horizontal input {
@@ -521,7 +531,7 @@ text-align: left;
 @media only screen and (max-width:768px) {
 
 #bs-over .jumbotron h1 {
-	font-size: 3.4em;
+	font-size: 2em;
 }
 
 .jumbotron h3 {
@@ -536,7 +546,7 @@ text-align: left;
 }
 
 .header h1 {
-	font-size: 4em;
+	font-size: 2em;
 }
 
 #bs-over .icon-menu {
@@ -552,7 +562,7 @@ text-align: left;
 }
 
 #bs-over #jumbotron-atracciones h1 {
-	font-size: 3em;
+	font-size: 2em;
 	padding-top: 200px;
 }
 
@@ -567,7 +577,7 @@ text-align: left;
 }
 
 .supporting-2 h1 {
-	font-size: 2.8em;
+	font-size: 2em;
 }
 .supporting-2 h2 {
 	font-size:26px;
