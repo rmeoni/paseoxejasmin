@@ -28,7 +28,6 @@ html, body {
   position: relative;
   overflow: scroll;
 }
-
 /*mobile only*/
 .mobile-logo {
 	display:none;
@@ -86,16 +85,17 @@ html, body {
 
 .icon-close {
   cursor: pointer;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 10px;
   margin-top: 20px;
+  background-color:#000;
   color:#fff;
   font-weight:200;
   z-index: 1000;
 }
 
 .icon-close i {
-	font-size: 33px;
+	font-size: 36px;
 }
 
 #bs-over .icon-menu {
@@ -105,15 +105,15 @@ html, body {
   position: fixed;
   margin-bottom: 25px;
   margin-left: 25px;
-  margin-top: 25px;
-  padding: 3px 0px 0px 5px;
+  margin-top: 10px;
+  padding: 1px 0px 0px 5px;
   z-index: 1000;
   display: none;
 }
 
 .icon-menu i {
   margin-right: 5px;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 /*desktop nav*/
@@ -216,8 +216,8 @@ html, body {
 .jumbotron h1 {
 	text-align:center;
 	color:#fff;
-	font-size:40px;
-	padding-top:110px;
+	font-size:68px;
+	padding-top:60px;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
 }
 
@@ -227,10 +227,6 @@ html, body {
 	font-weight:200;
 	font-family:'Raleway',sans-serif;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
-}
-
-#bs-over #intro-text h1 {
-	font-size: 30px;
 }
 
 /*supporting*/
@@ -280,7 +276,7 @@ html, body {
 
 .main h1 {
 	color: #fff;
-	font-size: 50px;
+	font-size: 6em;
 	text-align: center;
 	text-shadow: 0px 2px 3px #000;
 	padding-top: 240px; 
@@ -332,8 +328,8 @@ html, body {
 #bs-over #jumbotron-atracciones h1 {
 	text-align:center;
 	color:#fff;
-	font-size:50px;
-	padding-top:100px;
+	font-size:68px;
+	padding-top:60px;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
 }
 
@@ -445,7 +441,7 @@ font-family:'Raleway', sans-serif;
 @media only screen and (max-width:768px) {
 
 #bs-over .jumbotron h1 {
-	font-size: 2em;
+	font-size: 3.4em;
 }
 
 .jumbotron h3 {
@@ -460,7 +456,7 @@ font-family:'Raleway', sans-serif;
 }
 
 .header h1 {
-	font-size: 2em;
+	font-size: 4em;
 }
 
 #bs-over .icon-menu {
@@ -477,7 +473,7 @@ font-family:'Raleway', sans-serif;
 }
 
 #bs-over #jumbotron-atracciones h1 {
-	font-size: 2em;
+	font-size: 3em;
 	padding-top: 200px;
 }
 
@@ -492,7 +488,7 @@ font-family:'Raleway', sans-serif;
 }
 
 .supporting-2 h1 {
-	font-size: 2em;
+	font-size: 2.8em;
 }
 .supporting-2 h2 {
 	font-size:26px;
