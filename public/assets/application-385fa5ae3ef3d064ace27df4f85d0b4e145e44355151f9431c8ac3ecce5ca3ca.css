@@ -1,3 +1,26 @@
+/* line 4, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: color .3s;
+}
+
+/* line 15, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i:hover {
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* line 20, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav a {
+  color: #fff;
+  text-decoration: none;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,17 +33,17 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
 /*start*/
+
 
 html, body {
 	font-family:'Raleway', sans-serif;
 }
 
-/* id to the body to increment priority on the attributes */
 #bs-over {
   left: 0;
   margin: 0;
@@ -66,15 +89,6 @@ html, body {
   text-transform: uppercase;
 }
 
-#bs-over #button {
-	text-transform: none;
-	text-decoration: none;
-	padding: 10px;
-	margin: 2px;
-	margin-color: #000;
-	font-color:: #fff;
-}
-
 #bs-over .mobile-menu .current  a{
 	color:#888;
 	background-color: #000;
@@ -89,6 +103,7 @@ html, body {
   padding-left: 15px;
   padding-top: 10px;
   margin-top: 20px;
+  background-color:#000;
   color:#fff;
   font-weight:200;
   z-index: 1000;
@@ -100,7 +115,7 @@ html, body {
 
 #bs-over .icon-menu {
   color: #fff;
-  background-color: #7F0000;
+  background-color: #000;
   cursor: pointer;
   position: fixed;
   margin-bottom: 25px;
@@ -156,10 +171,6 @@ html, body {
 	-webkit-transition:color 1s;
 	color:#333333;
 	font-size:16px;
-}
-
-.desktop-logo {
-	padding: 20px;
 }
 
 /*nav fixed slide*/
@@ -371,6 +382,105 @@ font-family:'Raleway', sans-serif;
 	font-size:28px;
 }
 
+/*To hide the nickname when sending a message*/
+.hidden { display: none; }
+
+.contact {
+	margin: 10px;
+}
+
+#bs-over #form {
+	text-align: center;
+	position: relative;
+}
+
+#bs-over #form h1 {
+	font-size: 30px;
+}
+
+#bs-over #form .form-horizontal input {
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+
+#bs-over #form .form-horizontal .button {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#bs-over #form textarea {
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	width: 100%;
+} 
+
+#bs-over #form textarea:focus {
+	border: 1px solid #78A7D8;
+}
+
+#bs-over #form input:focus {
+	border: 1px solid #78A7D8;
+}
+
+#bs-over #form label {
+	display: block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#bs-over #form .btn {
+	background-color: #000;
+	transition: background-color .3s;
+	padding: 15px;
+}
+
+#bs-over #form .btn:hover {
+	background-color: #332C29;
+}
+
+
+/*flash*/
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+#create {
+	height: 600px;
+	background-color: #dbdbdb;
+
+}
+
+#create h1 {
+	color: #fff;
+}
 /*prefooter*/
 
 .pre-footer {
@@ -473,7 +583,6 @@ font-family:'Raleway', sans-serif;
 	display:inline-block;
 	text-align:center;
 	padding:20px;
-	margin-top: 28px;
 }
 
 #bs-over #jumbotron-atracciones h1 {
