@@ -229,6 +229,7 @@ html, body {
 	font-weight:200;
 	font-family:'Raleway',sans-serif;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
+	padding: 20px;
 }
 
 /*supporting*/
@@ -311,6 +312,30 @@ html, body {
 
 .main-menu p {
 	color:#A1A1A1;
+}
+
+/** download button **/
+
+#bs-over #featuring-label {
+	text-align: center;
+	height: 200px;
+}
+
+#button-download {
+	margin: 50px;
+	color: #fff;
+	padding: 8px;
+	text-align: center;
+	background-color: #000;
+	border: 1.5px solid #000;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+#button-download:hover {
+	color: #000;
+	background-color: #fff;
+	background: transition color; 
 }
 
 /*atracciones */
@@ -494,6 +519,10 @@ font-family:'Raleway', sans-serif;
 }
 .supporting-2 h2 {
 	font-size:26px;
+}
+
+#bs-over #featuring-label {
+	height: 150px;
 }
 
 .footer i {
