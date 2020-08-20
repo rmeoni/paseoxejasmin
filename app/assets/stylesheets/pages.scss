@@ -5,12 +5,18 @@
 .jumbotron-menu {
 	height: 700px;
 	text-align: center;
+	background-image: url('/images/frente.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .jumbotron-menu h1 {
-	margin-top: 100px;
+	padding: 50px;
 }
-#bs-over #second-nav {
+#jumbo #second-nav {
 	display: inline-block;
 	text-decoration: none;
 	list-style-type: none;
@@ -26,6 +32,24 @@
 	padding: 20px 20px 20px 20px;
 }
 
+#jumbo #arrows  {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+}
+
+#jumbo #arrows li a {
+	text-decoration: none;
+}
+
+.featuring-menu {
+	background-color: #fff;
+}
+
+#jumbo #button-download {
+	margin-bottom: 50px;
+}
 
 @media only screen and (max-width: 768px) {
 	.second-logo {

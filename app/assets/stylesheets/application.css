@@ -18,6 +18,7 @@
 
 html, body {
 	font-family:'Raleway', sans-serif;
+	scroll-behavior: smooth;
 }
 
 /* id to the body to increment priority on the attributes */
@@ -27,6 +28,7 @@ html, body {
   padding: 0;
   position: relative;
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 /*mobile only*/
 .mobile-logo {

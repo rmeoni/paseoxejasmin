@@ -16,7 +16,6 @@
   <title>Paseo Xejasmin Restaurante y Hotel</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
-  <%= javascript_include_tag 'jquery.combinedScroll.js' %>
   <%= csrf_meta_tags %>
 </head>
 <body id="bs-over">
@@ -95,19 +94,5 @@
 
       $(document).ready(main);
     </script>
-   		<!--scrolling nav-->
-   		<script type="text/javascript">
-				var main = function() {
- 
-  					// Hook up the current state to the nav bar
-  				$('.nav').onePageNav();
-  				$('.page-navigation').onePageNav();
-  				$('.mobile-menu').onePageNav();
-  				
-         };
-
-      $(document).ready(main);
-				</script>
-
 </body>
 </html>
