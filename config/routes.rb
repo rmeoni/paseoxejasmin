@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get '/' => 'contacts#new', as: :root
   match '/contacts',     to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]
+  get '/nuevo-menu' => 'pages#menu'
   get "*missing" => redirect("/")
 
    resources :contact

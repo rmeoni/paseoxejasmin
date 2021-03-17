@@ -1,3 +1,61 @@
+/* line 4, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: color .3s;
+}
+
+/* line 15, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav i:hover {
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* line 20, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/contacts.scss */
+#bs-over .app-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 5, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/pages.scss */
+.jumbotron-menu {
+  height: 700px;
+  text-align: center;
+}
+
+/* line 10, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/pages.scss */
+.jumbotron-menu h1 {
+  margin-top: 100px;
+}
+
+/* line 13, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/pages.scss */
+#bs-over #second-nav {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 58px;
+  padding-left: 0px;
+}
+
+/* line 23, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/pages.scss */
+.second-logo {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 20px 20px 20px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 31, /Users/rodrigomanuel/PaseoXejasminApp/app/assets/stylesheets/pages.scss */
+  .second-logo {
+    margin-left: 0px;
+  }
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,15 +68,15 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
 /*start*/
 
+
 html, body {
 	font-family:'Raleway', sans-serif;
-	scroll-behavior: smooth;
 }
 
 /* id to the body to increment priority on the attributes */
@@ -28,7 +86,6 @@ html, body {
   padding: 0;
   position: relative;
   overflow: scroll;
-  scroll-behavior: smooth;
 }
 /*mobile only*/
 .mobile-logo {
@@ -229,7 +286,6 @@ html, body {
 	font-weight:200;
 	font-family:'Raleway',sans-serif;
 	text-shadow:0 2px 3px rgba(0,0,0,.6);
-	padding: 20px;
 }
 
 /*supporting*/
@@ -312,30 +368,6 @@ html, body {
 
 .main-menu p {
 	color:#A1A1A1;
-}
-
-/** download button **/
-
-#bs-over #featuring-label {
-	text-align: center;
-	height: 200px;
-}
-
-#button-download {
-	margin: 50px;
-	color: #fff;
-	padding: 8px;
-	text-align: center;
-	background-color: #000;
-	border: 1.5px solid #000;
-	text-decoration: none;
-	font-size: 1.4em;
-}
-
-#button-download:hover {
-	color: #000;
-	background-color: #fff;
-	background: transition color; 
 }
 
 /*atracciones */
@@ -519,10 +551,6 @@ font-family:'Raleway', sans-serif;
 }
 .supporting-2 h2 {
 	font-size:26px;
-}
-
-#bs-over #featuring-label {
-	height: 150px;
 }
 
 .footer i {
